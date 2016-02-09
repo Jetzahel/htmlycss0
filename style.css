@@ -48,5 +48,40 @@ table {
 }
 
 html,body {
-	color:red;
+	color:#282828;
+	height: 100%;
 }
+header{
+	background-color: #282828;
+}
+ header img {
+ 	width: 250px;
+ 	display: block;
+ }
+
+ nav ul li{
+ 	color: #FFFFFF;
+ 	display: inline;
+ }
+
+
+ .home{
+ 	background-image: url('assets/bg.jpg');
+ 	height: 100%;
+ 	text-align: center;
+ 	color: #FFFFFF;
+
+ }
+
+ h1{
+ 	font-size: 60px;
+ 	text-transform: uppercase;
+ }
+
+ .boton {
+ 	color: #FFFFFF;
+ 	text-decoration: none;
+ 	text-transform: uppercase;
+ 	background-color: #ffb400;
+ 	padding: 20px 30px 20px 30px;
+ }
