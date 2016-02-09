@@ -52,7 +52,7 @@ html,body {
 	height: 100%;
 	font-family: 'Montserrat', sans-serif;
 }
-header{
+header, footer{
 	background-color: #282828;
 }
  header img {
