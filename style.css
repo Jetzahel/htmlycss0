@@ -54,6 +54,8 @@ html,body {
 }
 header, footer{
 	background-color: #282828;
+	position: absolute;
+	width: 100%
 }
  header img {
  	width: 250px;
@@ -72,13 +74,15 @@ header, footer{
  	background-size: cover;
  	-webkit-background-size: cover;
  	-moz-background-size:cover;
- 	height: 100%;
  	text-align: center;
  	color: #FFFFFF;
- }
+ 	padding-top: 20%;
+ 	padding-bottom: 20%;
+ 	box-sizing: boder-box;
+ }	
 
  h1{
- 	font-size: 60px;
+ 	font-size: 50px;
  	text-transform: uppercase;
  	font-weight: 700;
  }
@@ -99,6 +103,7 @@ header, footer{
  }
 footer{
 	padding: 20px 0px;
+	box-sizing:border-box;
 }
 
  a {
